@@ -1,0 +1,74 @@
+header{
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+.logoHeader{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin: 1%;
+    
+    img{
+        height: 10vh;
+        width: 5vw;
+    }
+
+    h1{
+        margin-bottom: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        color: white;
+        font-size: 30px;
+    }
+}
+.navHeader{
+    width: 30%;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        list-style: none;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.input{
+    margin: 1%;
+    height: 30%;
+    width: 17%;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid white 2px;
+    border-radius: 20px;
+    
+
+    input{
+        color: white;
+        outline: 0;
+        border: transparent;
+        width: 100%;
+        background-color: transparent;
+        font-size: 20px;
+        text-decoration: none;
+
+        &::placeholder{
+            font-size: 20px;
+            padding-left: 20%;
+            color: white;
+        }
+    }
+    button{
+        margin: 2%;
+        background-color: transparent;
+        border: solid transparent;
+        cursor: pointer;
+    }
+}

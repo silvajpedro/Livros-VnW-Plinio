@@ -1,0 +1,24 @@
+main{
+    border: solid red;
+    height: 65vh;
+}
+
+.mainImage{
+    background-image: url('/src/assets/imagemMain.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    h2{
+        color: white;
+        font-size: 32px;
+        height: 20vh;
+        width: 20vw;
+        display: flex;
+        align-items: center;
+    }
+}
