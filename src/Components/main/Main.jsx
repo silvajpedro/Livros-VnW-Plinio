@@ -7,22 +7,29 @@ import s from './Main.module.scss'
 export default function Main(){
     return(
         <main className={s.main2}>
-            <h2>Por que devo doar?</h2>
+            <section className={s.subTitulo}>
+                <h2>Por que devo doar?</h2>
+            </section>
             <section>
-                <article>
-                    <figure className={s.cards}>
+                <figure>
+                    <section>
                         <img src={card1} alt="" />
                         <figcaption> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</figcaption>
+                    </section>
+                    <section>
                         <img src={card2} alt="" />
                         <figcaption>Estimula o hábito da leitura e o aprendizado contínuo.</figcaption>
+                    </section>
+                    <section>
                         <img src={card3} alt="" />
                         <figcaption>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</figcaption>
+                    </section>
+                    <section>
                         <img src={card4} alt="" />
                         <figcaption>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</figcaption>
-                    </figure>
-                </article>
+                    </section>
+                </figure>
             </section>
         </main>
-        
     )
 }

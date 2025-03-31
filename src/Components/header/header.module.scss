@@ -7,7 +7,8 @@ header{
 }
 .logoHeader{
     display: flex;
-    width: 20%;
+    height: 13vh;
+    width: 25%;
     justify-content: space-around;
     margin: 1%;
     
@@ -20,9 +21,9 @@ header{
         margin-bottom: 6px;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content:center;
         color: white;
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 .navHeader{
@@ -31,7 +32,7 @@ header{
     ul{
         display: flex;
         justify-content: space-around;
-        font-size: 20px;
+        font-size: 25px;
         list-style: none;
     }
 

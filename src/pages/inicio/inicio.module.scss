@@ -1,23 +1,18 @@
-main{
-    border: solid red;
-    height: 65vh;
-}
-
 .mainImage{
     background-image: url('/src/assets/imagemMain.png');
-    height: 100%;
+    height: 70vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
 
     h2{
+        margin-left: 5vw;
         color: white;
         font-size: 32px;
-        height: 20vh;
-        width: 20vw;
+        height: 15vh;
+        width: 21vw;
         display: flex;
         align-items: center;
     }
