@@ -21,13 +21,15 @@ export default function LivrosDoados() {
             <section className={s.containerCards}>
                 {livros.map((item) => (
                     <section>
-                        <img src={item.image_url} alt={`Imagem do livro ${item.titulo}`} />
+                        <img src={item.imagem_url} alt={`Imagem do livro ${item.titulo}`} />
                         <div>
-                            <h3>{item.titulo}</h3>
+                            <h4>{item.titulo}</h4>
+                            <h4>{item.categoria}</h4>
+                            <h4>{item.autor}</h4>
                         </div>
                     </section>
                 ))}
             </section>
-            </section>
+        </section>
             )
 }

@@ -38,7 +38,7 @@ const enviarDados = async()=>{
             <div className={s.titulo}>
                 <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
             </div>
-            <form action="" className={s.form}>
+            <form action="">
                 <section className={s.infoLivros}>
                     <img src={inputLogo} alt="Imagem de um livro aberto." />
                     <p>Informações do Livro</p>

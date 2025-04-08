@@ -44,7 +44,7 @@ header{
 .input{
     margin: 1%;
     height: 30%;
-    width: 17%;
+    width: 20vw;
     display: flex;
     justify-content: space-evenly;
     border: solid white 2px;
@@ -55,15 +55,18 @@ header{
         color: white;
         outline: 0;
         border: transparent;
-        width: 100%;
+        width: 15vw;
         background-color: transparent;
         font-size: 20px;
         text-decoration: none;
+        
 
         &::placeholder{
+            width: 11vw;
             font-size: 20px;
             padding-left: 20%;
             color: white;
+            
         }
     }
     button{
@@ -71,5 +74,57 @@ header{
         background-color: transparent;
         border: solid transparent;
         cursor: pointer;
+    }
+}
+
+@media(max-width: 450px){
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        height: 35vh;
+        width: 100vw;
+        flex-direction: column;
+
+        .logoHeader{
+            width: 80%;
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                height: 9vh;
+                width: 20vw;
+            }
+
+            h1{
+                font-size: 30px;
+            }
+        }
+    }
+
+    .navHeader{
+        width: 95.8vw;
+
+        ul{
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    .input{
+        height: 6vh;
+        width: 85vw;
+
+        input{
+            width: 65vw;
+
+            &::placeholder{
+                display: flex;
+                width: 90vw;
+            }
+        }
+
     }
 }

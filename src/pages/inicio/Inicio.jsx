@@ -1,5 +1,6 @@
 import s from './inicio.module.scss'
 import Main from '../../Components/main/Main'
+
 export default function Inicio(){
     return(
         <main>
